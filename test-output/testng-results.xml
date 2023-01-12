@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-12T06:30:33Z" name="TestingTaskAPISuite" finished-at="2023-01-12T06:30:41Z" duration-ms="7827">
+    <groups>
+    </groups>
+    <test started-at="2023-01-12T06:30:33Z" name="TestingTaskAPI" finished-at="2023-01-12T06:30:41Z" duration-ms="7827">
+      <class name="com.testingtaskapi.testCases.TC001_TestingTask_Api">
+        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.testingtaskapi.testCases.TC001_TestingTask_Api@192c3f1e]" started-at="2023-01-12T06:30:33Z" name="createEmployee" finished-at="2023-01-12T06:30:41Z" duration-ms="7392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method signature="checkContentType()[pri:0, instance:com.testingtaskapi.testCases.TC001_TestingTask_Api@192c3f1e]" started-at="2023-01-12T06:30:41Z" name="checkContentType" finished-at="2023-01-12T06:30:41Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.testingtaskapi.testCases.TC001_TestingTask_Api@192c3f1e]" started-at="2023-01-12T06:30:41Z" name="checkResposeBody" finished-at="2023-01-12T06:30:41Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.testingtaskapi.testCases.TC001_TestingTask_Api@192c3f1e]" started-at="2023-01-12T06:30:41Z" name="checkStatusCode" finished-at="2023-01-12T06:30:41Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkcontentEncoding()[pri:0, instance:com.testingtaskapi.testCases.TC001_TestingTask_Api@192c3f1e]" started-at="2023-01-12T06:30:41Z" name="checkcontentEncoding" finished-at="2023-01-12T06:30:41Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcontentEncoding -->
+        <test-method signature="checkstatusLine()[pri:0, instance:com.testingtaskapi.testCases.TC001_TestingTask_Api@192c3f1e]" started-at="2023-01-12T06:30:41Z" name="checkstatusLine" finished-at="2023-01-12T06:30:41Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testingtaskapi.testCases.TC001_TestingTask_Api@192c3f1e]" started-at="2023-01-12T06:30:41Z" name="tearDown" finished-at="2023-01-12T06:30:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testingtaskapi.testCases.TC001_TestingTask_Api -->
+    </test> <!-- TestingTaskAPI -->
+  </suite> <!-- TestingTaskAPISuite -->
+</testng-results>

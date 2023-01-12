@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestingTaskAPISuite">
+<listeners>
+	<listener class-name="com.testingtaskapi.utilities.Listeners" />
+</listeners>
+	<test thread-count="5" name="TestingTaskAPI">
+		<classes>
+			<class name="com.testingtaskapi.testCases.TC001_TestingTask_Api" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
